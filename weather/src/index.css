@@ -3,21 +3,23 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #2193b0, #6dd5ed); /* Default gradient */
+  background: linear-gradient(to right, #2193b0, #4dcdea); /* Default gradient */
   color: white;
 }
 
 .container {
+  color: black;
   text-align: center;
   background: rgba(255, 255, 255, 0.2); /* Glass effect */
-  padding: 20px;
+  padding: 8px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 400px;
 }
 .weather-card {
   padding: 15px;
@@ -31,15 +33,16 @@ body {
 }
 
 .search-box input {
-  padding: 8px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   outline: none;
-  width: 180px;
+  width: 190px;
+  font-size: 25px;
 }
 
 .search-box button {
-  background: #f39c12;
+  background: #142bc2;
   border: none;
   padding: 8px 12px;
   border-radius: 5px;
@@ -56,6 +59,7 @@ body {
 .city {
   font-size: 24px;
   font-weight: bold;
+  color: black;
 }
 
 .temperature {
